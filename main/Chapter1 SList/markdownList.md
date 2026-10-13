@@ -26,6 +26,7 @@ L作为指针，本身是占据64bit的大小的空间而已，它在链表初�
 既然如此，每一个新加入的结点，都应该由“L→next=s"指向，即头结点的next指针域。而不是L本身.
 
 "L=s"是，表示指针L指向了s指向的新节点，导致原来的头结点LNode没有指针指向它了。错误是：更改了指向头结点的L指针，但是没有更改头结点的Next指针域。
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/6dbec75c-1507-4070-a090-93836e8dd3b1)
 
 ![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/6dbec75c-1507-4070-a090-93836e8dd3b1)
 
