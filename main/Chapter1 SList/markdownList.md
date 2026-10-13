@@ -28,7 +28,7 @@ L作为指针，本身是占据64bit的大小的空间而已，它在链表初�
 "L=s"是，表示指针L指向了s指向的新节点，导致原来的头结点LNode没有指针指向它了。错误是：更改了指向头结点的L指针，但是没有更改头结点的Next指针域。
 ![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/6dbec75c-1507-4070-a090-93836e8dd3b1)
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/6dbec75c-1507-4070-a090-93836e8dd3b1)
+
 
 ```javascript
 typedef struct LNode{
@@ -97,7 +97,7 @@ int main(){
 
 输出结果：
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/59110366-880e-4c4e-a32d-f96328edb854)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/59110366-880e-4c4e-a32d-f96328edb854)
 
 ### 尾插法建立单链表：
 
@@ -144,7 +144,7 @@ int Length(LinkList L){//求单链表的表长函数
 }
 ```
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/6b0ea00d-ef6f-4fe2-a9fb-cb4729e90de2)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/6b0ea00d-ef6f-4fe2-a9fb-cb4729e90de2)
 
 ### 按序号查找结点
 
@@ -167,7 +167,7 @@ LNode *GetElem(LinkList L,int i){//i是序逻辑号，按序号查找
 }
 ```
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/03a792d7-72ed-4d47-b743-3dcdc5518eb7)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/03a792d7-72ed-4d47-b743-3dcdc5518eb7)
 
 ### 按值查找结点
 
@@ -189,7 +189,7 @@ LNode *LocateElem(LinkList L,int e){ //按值查找
 }
 ```
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/931556ea-7b3b-4389-8a16-ba3c67f11a51)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/931556ea-7b3b-4389-8a16-ba3c67f11a51)
 
 ### 单链表的插入
 
@@ -265,7 +265,7 @@ bool DeleteList(LinkList &L,int i){
 }
 ```
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/c2f1151a-bfed-4584-aa6c-97fea2316c5c)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/c2f1151a-bfed-4584-aa6c-97fea2316c5c)
 
 ### 打印输出调错
 
@@ -309,19 +309,18 @@ FINISHINIG！
    }
 ```
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/100c321f-67fc-baaf-4fd9-b278930ab682)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/100c321f-67fc-baaf-4fd9-b278930ab682)
 
 图1
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/61223bf9-bae6-b9de-d57d-49d1892fc7f0)
-
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/61223bf9-bae6-b9de-d57d-49d1892fc7f0)
 图2
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/accb4db6-1ada-ed5b-3abd-3b368c73472f)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/accb4db6-1ada-ed5b-3abd-3b368c73472f)
 
 图3
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/7880a554-35e6-4456-98d8-adabf63d92cf)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/8bcfa983-a727-4932-9c3c-d59e2dfa05fe/7880a554-35e6-4456-98d8-adabf63d92cf)
 
 图4（输出正常）
 
