@@ -35,7 +35,7 @@ int main(){
 }
 ```
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/d7769351-3895-4b31-847d-b15dae9fb2e1/b2ea360b-4d95-4d7e-9e44-eab2f9b74cf3)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/d7769351-3895-4b31-847d-b15dae9fb2e1/b2ea360b-4d95-4d7e-9e44-eab2f9b74cf3)
 
 ```javascript
 #include <stdio.h>
@@ -127,7 +127,7 @@ int main(){
 }
 ```
 
-![image.png](https://resv2.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/d7769351-3895-4b31-847d-b15dae9fb2e1/e7da3a65-a40d-4e8f-991e-6bf17b58b1de)
+![image.png](https://res.craft.do/user/full/75cbb767-cd2a-0f76-5994-8dbdbfa83df2/doc/d7769351-3895-4b31-847d-b15dae9fb2e1/e7da3a65-a40d-4e8f-991e-6bf17b58b1de)
 
 ```javascript
 #include <stdio.h>
@@ -196,4 +196,4 @@ int SizeQueue(SqQueue q){
 }
 ```
 
-?descriptionFromFileType=function+toLocaleUpperCase()+{+[native+code]+}+File&mimeType=application/octet-stream&fileName=队列.md&fileType=undefined&fileExtension=md
+
